@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import "./App.css";
 import MoviesApp from "./movies/MoviesApp.jsx";
 
 class App extends Component {

@@ -2,8 +2,9 @@
   height: 100px;
   display: inline-table;
   flex-wrap: wrap;
-  border: 2px solid black;
+  border: 1px solid #ccc;
   margin: 5px;
+  align-content: center;
 }
 
 .title {
@@ -11,7 +12,6 @@
 }
 
 .delete {
-  align-self: flex-end;
   cursor: pointer;
 }
 
@@ -19,6 +19,11 @@
   cursor: pointer;
 }
 
-.dislike {
+h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
   cursor: pointer;
 }

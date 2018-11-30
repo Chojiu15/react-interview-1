@@ -19,11 +19,11 @@ function Movie({
       <div>{category}</div>
       <div className={classes.progress}>
         <progress value={likes} max={likes + dislikes} />
-        <div>
+        <div className={classes.center}>
           <button className={classes.like} onClick={onLike}>
             Like
           </button>
-          <button className={classes.dislike} onClick={onDislike}>
+          <button className={classes.like} onClick={onDislike}>
             Dislike
           </button>
         </div>
